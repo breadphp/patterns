@@ -1,0 +1,25 @@
+{
+	"name" : "bread/patterns",
+	"description" : "Bread patterns library",
+	"type" : "library",
+	"authors" : [{
+			"name" : "Giovanni Lovato",
+			"email" : "heruan@aldu.net"
+		}
+	],
+	"keywords" : [
+		"bread patterns"
+	],
+	"homepage" : "https://github.com/breadphp/patterns",
+	"license" : [
+		"CC-BY-3.0"
+	],
+	"require" : {
+		"php" : ">=5.4"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Bread\\Patterns" : "src"
+		}
+	}
+}
