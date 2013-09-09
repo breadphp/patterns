@@ -12,18 +12,10 @@
  * @since      Bread PHP Framework
  * @license    http://creativecommons.org/licenses/by/3.0/
  */
-namespace Bread\Patterns\Creational;
+namespace Bread\Patterns\Creational\Interfaces;
 
-abstract class Singleton implements Interfaces\Singleton
+interface Factory
 {
 
-    protected static $instance;
-
-    public static function instance()
-    {
-        if (!isset(static::$instance)) {
-            static::$instance = new static();
-        }
-        return static::$instance();
-    }
+    public static function factory();
 }
